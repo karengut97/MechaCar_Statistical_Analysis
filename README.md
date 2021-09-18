@@ -1,7 +1,9 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-<img src="images/linear_output.png" width="500" height="500"/>  
+Using the following output, we can assess our linear model:
+
+<img src="images/Linear_Output.png" width="500" height="400"/>  
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -14,7 +16,42 @@
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-    Yes, this model is effective at predicting mpg in the prototypes. The R-squared value is 71.5% which indicates that roughly 71.5% of the variability of mpg is explained by using this linear model.
+    Yes, this model is effective at predicting mpg in the prototypes. The R-squared value is 71.5% which indicates that roughly 71.5% of the variability of mpg is explained by using this linear model. In addition, the p-value is 5.35e-11 which is much smaller than our assumed signficance level of 0.05%.
+
+## Summary Statistics on Suspension Coils
+
+
+**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+When evaluating all lots collectively, the data indicates MechaCar is indeed with in specification since the overall variance is 62.3:
+
+<img src="images/Total_Summary_DF.png" width="400" height="120"/> 
+
+However, when each lot is evaluated individually it is discovered Lot1 and Lot2 are within specifications, but Lot3 is grossly out of specification:
+
+<img src="images/Lot_Summary.png" width="500" height="170"/> 
+
+## T-Tests on Susension Coils
+**PSI for All Lots:**
+
+<img src="images/PSI_All_Lots.png" width="500" height="270"/> 
+
+**PSI for Lot 1:**
+
+<img src="images/PSI_Lot1.png" width="500" height="270"/> 
+
+**PSI for Lot 2:**
+
+<img src="images/PSI_Lot2.png" width="500" height="270"/> 
+
+
+**PSI for Lot 3:**
+
+<img src="images/PSI_Lot3.png" width="500" height="270"/> 
+
+
+Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary. 
+
 
 ## Study Design: MechaCar vs. Competition
 1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
