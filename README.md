@@ -36,8 +36,8 @@ However, when each lot is evaluated individually it is discovered Lot1 and Lot2 
 
 To dive deeper into the suspension coils and thier relevance to PSI, t-tests are performed. 
 
-Our Null Hypothesis: There is **NO** statistical difference between suspension coil data mean is not different from the population mean.
-Our Alternate Hypothesis: There **IS** a statistical difference between suspension coil data mean is not different from the population mean.
+Our Null Hypothesis: There is **NO** statistical difference between suspension coil data mean and the population mean.
+Our Alternate Hypothesis: There **IS** a statistical difference between suspension coil data mean and the population mean.
 ******
 **PSI for All Lots:**
 
