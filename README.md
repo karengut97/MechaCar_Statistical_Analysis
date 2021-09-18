@@ -6,7 +6,12 @@
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
+
+    The slope of this linear model is not zero. This is evidenced by the fact that our p-value (5.25e-11) is MUCH smaller than our assumed signficance level of 0.05%.
+
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+    The R-squared value is 71.5%. This indicates that roughly 71.5% of the variability of mpg is explained by using this linear model.
 
 ## Study Design: MechaCar vs. Competition
 1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
