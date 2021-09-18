@@ -69,8 +69,11 @@ The above image is the PSI summary for Lot 3. This is where the null hypothesis 
 1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
 In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. 
 
-3. In your description, address the following questions:
+To compare how MechaCar performs against the competition, several areas for metrics would be interesting to collect.
 
+| Metric | Null Hypothesis | Statistical Test & Why | Data Needed |
+| :--- | :--- | :--- | :--- |
+Age | NO matter | One | Ages
 
 *  What metric or metrics are you going to test?
 *  What is the null hypothesis or alternative hypothesis? 
