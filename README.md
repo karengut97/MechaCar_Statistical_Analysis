@@ -34,9 +34,10 @@ However, when each lot is evaluated individually it is discovered Lot1 and Lot2 
 
 ## T-Tests on Suspension Coils
 
-To dive deeper into the suspension coils and thier relevance to PSI, t-tests are performed. 
+To dive deeper into the suspension coils PSI and their representation of the population, t-tests are performed. 
 
-Our Null Hypothesis: There is **NO** statistical difference between suspension coil data mean and the population mean.
+Our Null Hypothesis: There is **NO** statistical difference between suspension coil data mean and the population mean. 
+
 Our Alternate Hypothesis: There **IS** a statistical difference between suspension coil data mean and the population mean.
 ******
 **PSI for All Lots:**
@@ -73,7 +74,7 @@ In your study design, think critically about what metrics would be of interest t
 
 *  What metric or metrics are you going to test?
 *  What is the null hypothesis or alternative hypothesis? 
-*	 What statistical test would you use to test the hypothesis? And why? 
-*	 What data is needed to run the statistical test?
+*	What statistical test would you use to test the hypothesis? And why? 
+*	What data is needed to run the statistical test?
 
 
