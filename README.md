@@ -13,11 +13,11 @@ Using the following output, we can assess our linear model:
 **2. Is the slope of the linear model considered to be zero? Why or why not?**
 
 
-   The slope of this linear model is not zero. This is evidenced by the fact that our p-value (5.25e-11) is MUCH smaller than our assumed signficance level of 0.05%.
+   The slope of this linear model is not zero. This is evidenced by the fact that our p-value (5.25e-11) is MUCH smaller than our assumed significance level of 0.05%.
 
 **3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
-   Yes, this model is effective at predicting mpg in the prototypes. The R-squared value is 71.5% which indicates that roughly 71.5% of the variability of mpg is explained by using this linear model. In addition, the p-value is 5.35e-11 which is much smaller than our assumed signficance level of 0.05%.
+   Yes, this model is effective at predicting mpg in the prototypes. The R-squared value is 71.5% which indicates that roughly 71.5% of the variability of mpg is explained by using this linear model. In addition, the p-value is 5.35e-11 which is much smaller than our assumed significance level of 0.05%.
 
 ## Summary Statistics on Suspension Coils
 
@@ -44,24 +44,24 @@ Our Alternate Hypothesis: There **IS** a statistical difference between suspensi
 
 <img src="images/PSI_All_Lots.png" width="500" height="270"/> 
 
-The above image shows the PSI summary test results for all lots. The p-value is 0.06 which is not within the 0.05 threshold to determine a sigificant statistical difference from the population. Therefore, this will fail to reject the null hypothesis.
+The above image shows the PSI summary test results for all lots. The p-value is 0.06 which is not within the 0.05 threshold to determine a significant statistical difference from the population. Therefore, this will fail to reject the null hypothesis.
 ******
 **PSI for Lot 1:**
 
 <img src="images/PSI_Lot1.png" width="500" height="270"/> 
 
-The above image is the PSI summary for Lot 1. As indicated, the p-value is 0.61 and not within the 0.05 threshold for a sigificant statistical difference from the population. Therefore, this will fail to reject the null hypothesis for Lot 2 as well.
+The above image is the PSI summary for Lot 1. As indicated, the p-value is 0.61 and not within the 0.05 threshold for a significant statistical difference from the population. Therefore, this will fail to reject the null hypothesis for Lot 1.
 ******
 **PSI for Lot 2:**
 
 <img src="images/PSI_Lot2.png" width="500" height="270"/> 
-The above image is the PSI summary for Lot 2. As indicated, the p-value is 1 and not within the 0.05 threshold for a sigificant statistical difference from the population. Therefore, this will fail to reject the null hypothesis for Lot 1 as well.
+The above image is the PSI summary for Lot 2. As indicated, the p-value is 1 and not within the 0.05 threshold for a significant statistical difference from the population. Therefore, this will fail to reject the null hypothesis for Lot 2 as well.
 
 ******
 **PSI for Lot 3:**
 
 <img src="images/PSI_Lot3.png" width="500" height="270"/> 
-The above image is the PSI summary for Lot 3. This is where the null hypothesis is challenged. The p-value for Lot 3 is 0.04 and within the 0.05 threshold for a sigificant statistical difference from the population. Therefore, this will reject the null hypothesis for Lot 3 and the Alternate Hypothesis is accepted.
+The above image is the PSI summary for Lot 3. This is where the null hypothesis is challenged. The p-value for Lot 3 is 0.04 and within the 0.05 threshold for a significant statistical difference from the population. Therefore, this will reject the null hypothesis for Lot 3 and the Alternate Hypothesis is accepted.
 
 
 
