@@ -73,7 +73,8 @@ To compare how MechaCar performs against the competition, several areas for metr
 
 | Metric | Null Hypothesis | Statistical Test & Why | Data Needed |
 | :--- | :--- | :--- | :--- |
-Age | NO matter | One | Ages
+Fuel Efficiency | Fuel Efficiency for MechaCar is better than the competitors' | Multiple Linear Regression: 2+ variables, continuous data type  | Purchase history with fuel efficiency by manufacturer (MechaCar vs. Competitor)
+Fuel Efficiency by Vehicle Type | Fuel Efficiency by vehicle type for MechaCar is better than the competitors'| Two Sample t-test | Purchase history with fuel efficiency by manufacturer (MechaCar vs. Competitor)
 
 *  What metric or metrics are you going to test?
 *  What is the null hypothesis or alternative hypothesis? 
