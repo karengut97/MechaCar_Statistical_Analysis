@@ -66,19 +66,10 @@ The above image is the PSI summary for Lot 3. This is where the null hypothesis 
 
 
 ## Study Design: MechaCar vs. Competition
-1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
 In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. 
 
 To compare how MechaCar performs against the competition, several areas for metrics would be interesting to collect.
 
-| Metric | Null Hypothesis | Statistical Test & Why | Data Needed |
+| Metrics | Null Hypothesis | Statistical Test & Why | Data Needed |
 | :--- | :--- | :--- | :--- |
-Fuel Efficiency | Fuel Efficiency for MechaCar is better than the competitors' | Multiple Linear Regression: 2+ variables, continuous data type  | Purchase history with fuel efficiency by manufacturer (MechaCar vs. Competitor)
-Fuel Efficiency by Vehicle Type | Fuel Efficiency by vehicle type for MechaCar is better than the competitors'| Two Sample t-test | Purchase history with fuel efficiency by manufacturer (MechaCar vs. Competitor)
-
-*  What metric or metrics are you going to test?
-*  What is the null hypothesis or alternative hypothesis? 
-*	What statistical test would you use to test the hypothesis? And why? 
-*	What data is needed to run the statistical test?
-
-
+Fuel Efficiency</br> <br> Maintenance Cost</br> <br> Horse Power </br>| MechaCar features are the same as other manufacturers' and do not impact purchasing decisions.| Chi-Squared Test of independence which will determine if the categories of metrics are related to sales | Sales data for the last five years, inclusive of vehicle features
